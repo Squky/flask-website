@@ -30,18 +30,18 @@ body{
 	top: 20px;
 	height: 400px;
 	left: 42%;
-	
+
 	align-items: center;
 }
 
 .avatar-pic{
-	
+
 	border-radius: 50%;
 
 }
 
 .card_pic{
-	
+
 }
 h1,h2{
 	color: rgb(247, 142, 105);
@@ -49,17 +49,16 @@ h1,h2{
 }
 
 .trick-btn,.trick-btn2,.trick-btn3{
-	
+
 	border-radius: 100%;
 	padding: 10px;
 	height: 40px;
 	width: 40px;
 	background-color: rgba(300,300,300,0.9);
-	color:black;
 	text-decoration: none;
-	
+
 }
-.trick-btn:hover,.trick-btn2:hover,.trick-btn3:hover{
+.trick-btn:hover,.trick-btn2:hover{
 	transition: width 0.5s, height 0.5s;
 	background-color: green;
 	color:white;
@@ -69,9 +68,12 @@ h1,h2{
 }
 
 .trick-btn3:hover{
-	transition: 0.6s;
+	transition: width 0.6s ,height 0.6s ;
+	width: 700px;
+	height: 70px;
 	background-image: url("page2/ring2.gif");
 	background-size: 70px 70px;
+	background-position: left top;;
 }
 .trick-btn2:hover{
 	transition: 1s;

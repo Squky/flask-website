@@ -6,7 +6,7 @@
 <body>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/page2/page2style.css')  }}">
 	<a href="index">
-		<img class ="eye" src="css/page2/ring2.gif">
+		<img class ="eye" src="{{ url_for('static',filename='css/page2/ring2.gif')  }}">
 	</a>
 	<div class="card-category-container" >
 		<h4 class="grad-title" >
@@ -23,7 +23,7 @@
 	</div>
 
 	<div class="blog-card" >
-		<img class="blog-img" src="components/page2/potatoes.jpg">
+		<img class="blog-img" src="{{ url_for('static',filename='css/page2/potatoes.jpg')  }}">
 		<div class="card-content-text">
 
 			<h2>Po-Ta-Toes</h2>
